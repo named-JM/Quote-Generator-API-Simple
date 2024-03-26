@@ -22,10 +22,9 @@ body, html {
     box-shadow: 1px 1px 2px;
     border-radius: 10px;
     padding: 3px 10px;
-    cursor: pointer;
 }
 
-#new-quote-btn {
+#newBtn {
     margin-top: 20px;
     cursor: pointer;
 }

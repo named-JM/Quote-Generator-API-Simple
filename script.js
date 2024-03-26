@@ -28,7 +28,7 @@ async function fetchData() {
     }
 }
 
-document.getElementById('new-quote-btn').addEventListener('click', fetchData);
+document.getElementById('newBtn').addEventListener('click', fetchData);
 
 // Fetch a quote when the page loads
 fetchData();
