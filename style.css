@@ -12,6 +12,10 @@ body, html {
 }
 
 .container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    
     font-family: 'helvetica neue', Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -27,4 +31,14 @@ body, html {
 #newBtn {
     margin-top: 20px;
     cursor: pointer;
+}
+
+#quote-content {
+
+    font-weight: bold;
+}
+
+#author {
+    font-style: italic;
+    font-weight: 500;
 }
