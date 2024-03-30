@@ -1,6 +1,23 @@
+
+
 body, html {
-    height: 100%;
+    height: 100vh;
+    width:  100%;
+    background: linear-gradient(45deg, #ea7986, #b1a6ff, #f9c792, #ffb7b6 );
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
     margin: 0;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    0%{
+        background-position: 0 50%;
+    }
 }
 
 .wrapper {
