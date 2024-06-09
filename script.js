@@ -8,6 +8,7 @@ async function fetchData() {
         }
     };
 
+    
     try {
 
         //here need to intialize and fetch data  before respnise so it wont get error
@@ -42,9 +43,9 @@ async function fetchData() {
     }
 }
 
-document.getElementById('newBtn').addEventListener('click', fetchData);
+document.getElementById('new-btn').addEventListener('click', fetchData);
 
-// Fetch a quote when the page loads
+// now this isdwhere u fetch quote after clicking new button
 fetchData();
 
 
